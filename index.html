@@ -336,6 +336,42 @@
 </head>
 <body>
 
+<div id="zappy-splash-screen" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#1E252B;z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity 0.8s ease, visibility 0.8s ease;">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:24px;">
+    <img src="/assets/logo-remove_background-1777998049288-tm2srv.png" alt="א.מ פסולת מתכות בע״מ" style="width:180px;height:auto;animation:splashLogoPulse 1.5s ease-in-out infinite alternate;">
+    <div style="display:flex;gap:8px;align-items:center;">
+      <div style="width:8px;height:8px;border-radius:50%;background:#B6FF3B;animation:splashDot 1.2s ease-in-out infinite;"></div>
+      <div style="width:8px;height:8px;border-radius:50%;background:#B6FF3B;animation:splashDot 1.2s ease-in-out 0.2s infinite;"></div>
+      <div style="width:8px;height:8px;border-radius:50%;background:#B6FF3B;animation:splashDot 1.2s ease-in-out 0.4s infinite;"></div>
+    </div>
+  </div>
+</div>
+<style>
+@keyframes splashLogoPulse {
+  from { opacity: 0.7; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1.05); }
+}
+@keyframes splashDot {
+  0%, 100% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(-6px); }
+}
+#zappy-splash-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+</style>
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var splash = document.getElementById('zappy-splash-screen');
+    if (splash) {
+      splash.classList.add('hidden');
+      setTimeout(function() { splash.remove(); }, 900);
+    }
+  }, 1800);
+});
+</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1089,7 +1125,7 @@
       <!-- Tile 1: Large Panoramic -->
       <article class="mosaic-tile tile-panoramic zappy-grid-item-no-stretch" style="align-self: start !important;" data-grid-item-index="0" data-zappy-has-aspect-ratio="true">
         <figure class="tile-figure">
-          <img data-placeholder="index-showcase-image-1" data-context="Aerial wide-angle view of a large Israeli construction site with piles of sorted scrap metal — steel rebar bundles, copper wire coils, and aluminum profiles stacked in organized rows under a bright industrial sky. Realistic, cinematic, editorial quality." width="900" height="400" src="/assets/site-index-showcase-image-1-1777998853410-qjrjh5.webp?v=1777998853410" alt="אתר בנייה ישראלי עם ערמות פסולת מתכות מסודרות" data-element-type="image" data-element-id="img-1777998192095-6ckztyj49" style="">
+          <img data-placeholder="index-showcase-image-1" data-context="Aerial wide-angle view of a large Israeli construction site with piles of sorted scrap metal — steel rebar bundles, copper wire coils, and aluminum profiles stacked in organized rows under a bright industrial sky. Realistic, cinematic, editorial quality." width="900" height="400" src="/assets/site-index-showcase-image-1-1777998853410-qjrjh5.webp?v=1777998853410" alt="אתר בנייה ישראלי עם ערמות פסולת מתכות מסודרות" data-element-type="image" data-element-id="img-1777998192095-6ckztyj49" >
         </figure>
         <div class="tile-overlay" style="font-size: 16px;">
           <h3 class="tile-title" style="font-size: 22px;">איסוף מתכות מאתרי בנייה</h3>
@@ -1099,7 +1135,7 @@
       <!-- Tile 2: Medium Portrait -->
       <article class="mosaic-tile tile-portrait-a zappy-grid-item-no-stretch" style="align-self: start !important;" data-grid-item-index="1" data-zappy-has-aspect-ratio="true">
         <figure class="tile-figure">
-          <img data-placeholder="index-showcase-image-2" data-context="Close-up macro photograph of tangled copper wires and electrical cables mixed with industrial metal scraps — rich oxidized textures, warm copper tones, editorial industrial photography style." width="420" height="560" src="/assets/site-index-showcase-image-2-1777998878492-scawkj.webp?v=1777998878492" alt="פסולת נחושת וכבלים חשמליים לאיסוף" data-element-type="image" data-element-id="img-1777998192095-32owhvu1u" style="">
+          <img data-placeholder="index-showcase-image-2" data-context="Close-up macro photograph of tangled copper wires and electrical cables mixed with industrial metal scraps — rich oxidized textures, warm copper tones, editorial industrial photography style." width="420" height="560" src="/assets/site-index-showcase-image-2-1777998878492-scawkj.webp?v=1777998878492" alt="פסולת נחושת וכבלים חשמליים לאיסוף" data-element-type="image" data-element-id="img-1777998192095-32owhvu1u" >
         </figure>
         <div class="tile-overlay" style="font-size: 16px;">
           <h3 class="tile-title" style="font-size: 22px;">נחושת וכבלים חשמליים</h3>
@@ -1109,7 +1145,7 @@
       <!-- Tile 3: Medium Portrait -->
       <article class="mosaic-tile tile-portrait-b zappy-grid-item-no-stretch" style="align-self: start !important;" data-grid-item-index="2" data-zappy-has-aspect-ratio="true">
         <figure class="tile-figure">
-          <img data-placeholder="index-showcase-image-3" data-context="Stacked pile of old electronic equipment — circuit boards, computer parts, server racks, and industrial electronics ready for recycling. Clean industrial warehouse setting in Israel, dramatic lighting, premium editorial photography." width="420" height="560" src="/assets/site-index-showcase-image-3-1777998901503-03lifv.webp?v=1777998901503" alt="ציוד אלקטרוני ישן מוכן למיחזור" data-element-type="image" data-element-id="img-1777998192095-rpa8jblpc" style="">
+          <img data-placeholder="index-showcase-image-3" data-context="Stacked pile of old electronic equipment — circuit boards, computer parts, server racks, and industrial electronics ready for recycling. Clean industrial warehouse setting in Israel, dramatic lighting, premium editorial photography." width="420" height="560" src="/assets/site-index-showcase-image-3-1777998901503-03lifv.webp?v=1777998901503" alt="ציוד אלקטרוני ישן מוכן למיחזור" data-element-type="image" data-element-id="img-1777998192095-rpa8jblpc" >
         </figure>
         <div class="tile-overlay" style="font-size: 16px;">
           <h3 class="tile-title" style="font-size: 22px;">ציוד אלקטרוני ופסולת היי-טק</h3>
@@ -1119,7 +1155,7 @@
       <!-- Tile 4: Square -->
       <article class="mosaic-tile tile-square zappy-grid-item-no-stretch" style="align-self: start !important;" data-grid-item-index="3" data-zappy-has-aspect-ratio="true">
         <figure class="tile-figure">
-          <img data-placeholder="index-showcase-image-4" data-context="Industrial scrap metal yard with a truck being loaded with sorted aluminum and steel scrap from a commercial project site in Israel. Workers in safety vests, professional on-site pickup operation, realistic documentary-style photography." width="500" height="500" src="/assets/site-index-showcase-image-4-1777998924322-2syo99.webp?v=1777998924322" alt="משאית איסוף פסולת מתכות מפרויקט מסחרי" data-element-type="image" data-element-id="img-1777998192095-xzuhon4ia" style="">
+          <img data-placeholder="index-showcase-image-4" data-context="Industrial scrap metal yard with a truck being loaded with sorted aluminum and steel scrap from a commercial project site in Israel. Workers in safety vests, professional on-site pickup operation, realistic documentary-style photography." width="500" height="500" src="/assets/site-index-showcase-image-4-1777998924322-2syo99.webp?v=1777998924322" alt="משאית איסוף פסולת מתכות מפרויקט מסחרי" data-element-type="image" data-element-id="img-1777998192095-xzuhon4ia" >
         </figure>
         <div class="tile-overlay" style="font-size: 16px;">
           <h3 class="tile-title" style="font-size: 22px;">איסוף מקצועי מהפרויקט שלכם</h3>
