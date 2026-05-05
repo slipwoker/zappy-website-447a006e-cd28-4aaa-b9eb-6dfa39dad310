@@ -1,0 +1,67 @@
+# א.מ פסולת מתכות בע"מ — Generative Engine Optimization Map
+
+> A.M Scrap Metals Ltd. is an Israeli company specializing in purchasing and collecting scrap metals and electronic equipment directly from client sites and projects across Israel. The company differentiates itself through competitive pricing and high-quality service, offering a convenient, on-site pickup solution for businesses, contractors, and project managers looking to sell their metal waste and electronic scrap. The brand emphasizes reliability, professionalism, and accessibility in the Israeli recycling market.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+A.M Scrap Metals Ltd. is an Israeli company specializing in purchasing and collecting scrap metals and electronic equipment directly from client sites and proje
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About א.מ פסולת מתכות בע"מ
+A.M Scrap Metals Ltd. is an Israeli company specializing in purchasing and collecting scrap metals and electronic equipment directly from client sites and projects across Israel. The company differentiates itself through competitive pricing and high-quality service, offering a convenient, on-site pickup solution for businesses, contractors, and project managers looking to sell their metal waste and electronic scrap. The brand emphasizes reliability, professionalism, and accessibility in the Israeli recycling market.
+
+## Target Audience
+- עסקים, קבלנים, אתרי בנייה ופרויקטים בישראל המעוניינים למכור פסולת מתכות וציוד אלקטרוני
+- אתרי בנייה ופרויקטים
+- חברות תעשייתיות
+- יצרני ציוד אלקטרוני
+
+## Industry
+מיחזור ופסולת מתכות
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
