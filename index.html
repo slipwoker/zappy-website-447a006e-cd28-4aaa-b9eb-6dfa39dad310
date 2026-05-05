@@ -767,9 +767,21 @@
   
   <main>
     <section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
-  <!-- Background Image -->
+  <!-- Background Video + Fallback Image -->
   <div class="index-hero-bg">
-    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Dramatic wide-angle industrial scrap yard scene at dusk in Israel: massive piles of bundled steel rods, crushed car bodies, copper wire coils, and electronic equipment crates stacked high. A heavy loader machine is actively moving metal scrap with sparks and warm copper-orange light glowing from machinery. Dark cinematic mood with visible steel textures, controlled grain, and industrial atmosphere. Ultra-realistic photography, high contrast, moody lighting." width="1440" height="900" src="/assets/site-index-hero-image-1.webp" alt="מגרש פסולת מתכות תעשייתי עם ציוד אלקטרוני וחומרי גרט בישראל">
+    <video
+      class="index-hero-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="assets/site-index-hero-image-1.webp"
+      aria-hidden="true"
+    >
+      <source src="https://cdn.coverr.co/videos/coverr-a-scrap-metal-yard-7626/1080p.mp4" type="video/mp4">
+      <!-- Fallback image if video fails -->
+      <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Dramatic wide-angle industrial scrap yard scene at dusk in Israel: massive piles of bundled steel rods, crushed car bodies, copper wire coils, and electronic equipment crates stacked high. A heavy loader machine is actively moving metal scrap with sparks and warm copper-orange light glowing from machinery. Dark cinematic mood with visible steel textures, controlled grain, and industrial atmosphere. Ultra-realistic photography, high contrast, moody lighting." width="1440" height="900" src="/assets/site-index-hero-image-1.webp" alt="מגרש פסולת מתכות תעשייתי עם ציוד אלקטרוני וחומרי גרט בישראל">
+    </video>
   </div>
 
   <!-- Rust texture overlay (decorative) -->
