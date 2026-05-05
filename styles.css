@@ -5968,6 +5968,131 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 [data-zappy-animate] { opacity: 0; }
 [data-zappy-animate].zappy-animated { opacity: 1; }
 
+
+.index-hero-section .index-hero-bg video {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  filter: brightness(0.55) contrast(1.15) saturate(0.7) !important;
+}
+
+.index-hero-section .index-hero-h1 {
+  font-size: clamp(2.8rem, 6.5vw, 4.8rem) !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.08 !important;
+  margin-bottom: 20px !important;
+}
+
+.index-hero-section .index-hero-subtitle {
+  font-size: 1.2rem !important;
+  line-height: 1.8 !important;
+  margin-bottom: 44px !important;
+}
+
+.index-hero-section .index-hero-label {
+  font-size: 0.85rem !important;
+  letter-spacing: 0.14em !important;
+  margin-bottom: 28px !important;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  padding: 20px 52px !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.1em !important;
+  border-radius: 4px !important;
+  box-shadow: 0 10px 36px rgba(182,255,59,0.45) !important;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 16px 48px rgba(182,255,59,0.6) !important;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  padding: 18px 48px !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.1em !important;
+  border-radius: 4px !important;
+  border-width: 2px !important;
+}
+
+.index-services-section .iss-card {
+  box-shadow: 0 16px 48px rgba(0,0,0,0.13) !important;
+  border-radius: 8px !important;
+  transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+
+.index-services-section .iss-card:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 32px 80px rgba(0,0,0,0.22) !important;
+  border-color: var(--secondary) !important;
+}
+
+.index-services-section .iss-card--featured:hover {
+  border-color: var(--accent) !important;
+  box-shadow: 0 32px 80px rgba(182,255,59,0.18) !important;
+}
+
+.index-services-section .iss-card-accent-line {
+  height: 3px !important;
+}
+
+.index-services-section .iss-card-accent-line--accent {
+  height: 3px !important;
+  box-shadow: 0 0 12px rgba(182,255,59,0.5) !important;
+}
+
+.index-stats-section .index-stats-card {
+  border-radius: 8px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.index-stats-section .index-stats-number {
+  font-size: clamp(2.2rem, 4vw, 3.2rem) !important;
+  letter-spacing: -0.02em !important;
+}
+
+.index-benefits-section .index-benefits-heading {
+  font-size: clamp(2.4rem, 4.5vw, 3.6rem) !important;
+  line-height: 1.1 !important;
+}
+
+.index-testimonials-section .index-testimonials-section__title {
+  font-size: clamp(2rem, 3.5vw, 2.8rem) !important;
+}
+
+.index-stats-section .index-stats-heading {
+  font-size: clamp(1.8rem, 3vw, 2.4rem) !important;
+}
+
+.index-testimonials-section .index-testimonials-section__card {
+  border-radius: 10px !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.index-testimonials-section .index-testimonials-section__card:hover {
+  transform: translateY(-6px) !important;
+}
+
+.index-contact-section .index-contact-section__cta {
+  padding: 20px 48px !important;
+  font-size: 1.05rem !important;
+  border-radius: 6px !important;
+  letter-spacing: 0.08em !important;
+}
+
+.navbar .nav-cta-btn {
+  padding: 12px 28px !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.08em !important;
+  border-radius: 4px !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
