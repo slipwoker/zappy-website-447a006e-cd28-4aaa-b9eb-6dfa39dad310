@@ -2,13 +2,13 @@
 
 A.M Scrap Metals Ltd. is an Israeli company specializing in purchasing and collecting scrap metals and electronic equipment directly from client sites and projects across Israel. The company differentiates itself through competitive pricing and high-quality service, offering a convenient, on-site pickup solution for businesses, contractors, and project managers looking to sell their metal waste and electronic scrap. The brand emphasizes reliability, professionalism, and accessibility in the Israeli recycling market.
 
-Source: https://example.com
+Source: https://a-m-psolet-metachot.zappy5.app
 
 ---
 
 ## קנייה פסולת מתכות לעסקים — א.מ פסולת מתכות בע&quot;מ
 
-URL: https://example.com
+URL: https://a-m-psolet-metachot.zappy5.app
 Description: A.M Scrap Metals Ltd. is an Israeli company specializing in purchasing and collecting scrap metals and electronic equipment directly from client sites and proje
 
 קנייה פסולת מתכות לעסקים — א.מ פסולת מתכות בע"מ
@@ -803,7 +803,7 @@ B2B
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://a-m-psolet-metachot.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1074,7 +1074,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://a-m-psolet-metachot.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1354,7 +1354,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://a-m-psolet-metachot.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
