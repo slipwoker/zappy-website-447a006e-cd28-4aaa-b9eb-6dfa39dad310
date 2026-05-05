@@ -77,7 +77,6 @@ Description: A.M Scrap Metals Ltd. is an Israeli company specializing in purchas
 
 
 
-- צור קשר
 
 
 
@@ -847,7 +846,6 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 
 
-- צור קשר
 
 
 
@@ -1119,7 +1117,6 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 
 
-- צור קשר
 
 
 
@@ -1400,7 +1397,6 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 
 
-- צור קשר
 
 
 
