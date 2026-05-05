@@ -1498,6 +1498,58 @@ window.onload = function() {
 })();
 
 
+/* Added Component Script */
+(function () {
+  const form = document.querySelector('.contact-form');
+  if (!form) return;
+
+  const successMsg = form.querySelector('.contact-form__success');
+  const submitBtn = form.querySelector('.contact-form__submit');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    // Basic validation
+    const requiredFields = form.querySelectorAll('[required]');
+    let valid = true;
+
+    requiredFields.forEach(function (field) {
+      field.style.borderColor = '';
+      if (!field.value.trim()) {
+        field.style.borderColor = '#c0392b';
+        field.focus();
+        valid = false;
+      }
+    });
+
+    if (!valid) return;
+
+    // Simulate submission
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '0.7';
+    submitBtn.querySelector('.contact-form__submit-text').textContent = 'שולח...';
+
+    setTimeout(function () {
+      successMsg.removeAttribute('hidden');
+      form.reset();
+      submitBtn.disabled = false;
+      submitBtn.style.opacity = '';
+      submitBtn.querySelector('.contact-form__submit-text').textContent = 'שלח פנייה';
+      successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 1200);
+  });
+
+  // Remove red border on input
+  form.querySelectorAll('[required]').forEach(function (field) {
+    field.addEventListener('input', function () {
+      if (field.value.trim()) {
+        field.style.borderColor = '';
+      }
+    });
+  });
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
